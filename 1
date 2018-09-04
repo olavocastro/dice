@@ -1,0 +1,11 @@
+#Simple dice throw simulator
+
+import random
+print ('Virtual dice\n')
+while True:
+  dado = [1,2,3,4,5,6]
+  print ('\n')
+  print ('Here you go:',(random.choice(dado)))
+  x=input('Do you want throw the dice again? (y/n):  ')
+  if x == 'n':
+    break
